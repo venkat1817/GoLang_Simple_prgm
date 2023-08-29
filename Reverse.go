@@ -7,7 +7,7 @@ func reversePrint(s string) {
 	length := len(runes)
 
 	for i := length - 1; i >= 0; i-- {
-		fmt.Println(runes[i])
+		fmt.Printf("%c", runes[i])
 	}
 
 	fmt.Println()
